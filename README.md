@@ -8,6 +8,10 @@
 -   🛡️ Bảo hành vĩnh viễn, cập nhật miễn phí trọn đời.
 -   🎁 Cho phép dùng thử miễn phí trong 3 ngày.
 
+## Mua hàng tại: [taphoammo.net](https://taphoammo.net/gian-hang/cong-cu-fake-so-lieu-ngan-sach-cho-facebook-ads_5432471)
+
+> Hoặc liên hệ qua Telegram: [@dinhvan2310](https://t.me/dinhvan2310)
+
 ## Hướng Dẫn Cài Đặt
 
 1.  **Tải extension tại [đây](ChangeContentFbAds_v101.zip)**

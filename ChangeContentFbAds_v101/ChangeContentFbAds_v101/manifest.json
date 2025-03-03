@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "Change Content Ads FB",
+  "version": "1.0.0",
+  "description": "Change Content Ads FB",
+  "icons": {
+    "16": "logo.png",
+    "48": "logo.png",
+    "128": "logo.png"
+  },
+  "background": {
+    "service_worker": "./static/js/background.js"
+  },
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": ["storage", "tabs", "storage", "activeTab"],
+  "host_permissions": ["<all_urls>"],
+  "content_scripts": [
+    {
+      "matches": ["https://adsmanager.facebook.com/adsmanager/manage/*"],
+      "js": ["./static/js/content.js"]
+    },
+    {
+      "matches": ["https://adsmanager.facebook.com/adsmanager/manage/*"],
+      "js": ["./static/js/overlayScript.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
+
